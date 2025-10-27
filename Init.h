@@ -8,6 +8,7 @@
 #include <map>
 #include <unordered_map>
 #include <unordered_set>
+#include <time.h>
 
 #define _DEBUG_FLAG  	1 << 0
 #define _OUT_FLAG    	1 << 1
