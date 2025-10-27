@@ -7,6 +7,7 @@ Build Requirements:
 -C standard libaries
 
 Build Instructions: run 'make' in directory with the following files
+-Makefile
 -apriori.cpp
 -Init.h
 -Your dataset
@@ -34,4 +35,5 @@ Argument infile expects the filename of an ascii text file with an observation p
 Results will be written to outfile, which will be created or overwritten as an ascii text file.
 These arguments are interpreted as paths from the current directory.
 Datasets that contain terms which are not integers should be run with the -s flag and output will be sorted lexicographically.
+
 Each line of the input is expected to be a set, repeat values within a line of the input file may not function correctly
